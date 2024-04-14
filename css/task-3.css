@@ -1,0 +1,12 @@
+input {
+  padding: 0 6px;
+  display: block;
+  margin: 20px auto 0;
+  border-radius: 2px;
+  border: solid 1px #808080;
+  line-height: 30px;
+}
+
+h1 {
+  text-align: center;
+}

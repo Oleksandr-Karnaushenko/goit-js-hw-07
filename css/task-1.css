@@ -1,0 +1,23 @@
+.item {
+  background-color: #f6f6fe;
+  border-radius: 10px;
+  width: 392px;
+  height: 264px;
+  list-style: none;
+  margin: 0 auto 24px;
+  padding: 16px;
+}
+
+.item ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0;
+}
+
+.item ul li {
+  border: solid 1px black;
+  border-radius: 5px;
+  padding: 0 16px;
+}

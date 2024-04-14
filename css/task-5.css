@@ -1,0 +1,13 @@
+.widget {
+  margin: 0 auto;
+  width: 345px;
+  text-align: center;
+}
+.widget button {
+  width: 148px;
+  height: 40px;
+  background-color: #4e75ff;
+  border-radius: 10px;
+  color: white;
+  border: none;
+}
