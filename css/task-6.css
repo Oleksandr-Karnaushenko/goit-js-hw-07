@@ -1,9 +1,9 @@
 div {
-  width: 486px;
   margin: 0 auto;
   text-align: center;
   background-color: #f6f6fe;
   border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 button {
@@ -22,6 +22,8 @@ input {
   height: 40px;
   border-radius: 10px;
   border: solid 1px black;
+  font-size: 20px;
+  text-align: center;
 }
 #controls {
   display: flex;
