@@ -2,7 +2,9 @@ const textInput = document.querySelector('input');
 const output = document.querySelector('span');
 
 textInput.addEventListener('input', event => {
-  if (event.currentTarget.value === '' || event.currentTarget.value == ' ') {
+  const textInputValue = event.currentTarget.value;
+  const isWhitespaceString = str => !/\S/.test(str);
+  if (textInputValue === '' || isWhitespaceString(textInputValue)) {
     output.textContent = 'Anonymous';
-  } else output.textContent = event.currentTarget.value.trim();
+  } else output.textContent = textInputValue.trim();
 });
